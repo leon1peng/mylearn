@@ -1,0 +1,22 @@
+{
+    // 毛玻璃特效 & 霓虹主题
+    "terminal.integrated.automationShell.windows": "dom",
+    "vscode_custom_css.imports": [
+        "file:///Users/jouky.peng/Desktop/VSCode/custom.css",
+        "file:///Users/jouky.peng/Desktop/VSCode/custom.js"
+    ],
+    "vscode_custom_css.policy": true,
+
+    // Python 执行
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Args": ["--max-line-length=248"],
+    "python.linting.pylintEnabled": false,
+    "python.venvPath": "C:\\Users\\jouky.peng\\Envs\\myenv",
+    "python.venvFolders": [
+        "envs",
+        ".pyenv",
+        ".direnv",
+        ".env",
+    ]
+}

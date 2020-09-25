@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>add hero</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/add.css">
+    <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <!--<script src="/static/js/jquery.min.js"></script>-->
+    <script src="/static/js/add.js"></script>
+</head>
+
+<body style="background-color: #ccc;">
+    <!--<form method="post" action="/add_check">-->
+    <!--    Hero Name: <input type="text" name="heroname" /><br/>-->
+    <!--    Hero gender: <input type="text" name="herogender"/><br/>-->
+    <!--    Hero Skill: <input type="text" name="heroskill" /><br/>-->
+    <!--    <input type="submit" name="Submit">-->
+    <!--</form>-->
+    <div id="center">
+        <div id="title">新增题目</div>
+        <table>
+            <tr>
+                <td>用 户: </td>
+                <td><input type="text" id="username" /></td>
+            </tr>
+            <tr>
+                <td>题 号: </td>
+                <td><input type="text" id="number" /></td>
+            </tr>
+            <tr>
+                <td>题 名:</td>
+                <td><input type="text" id="topicName" /></td>
+            </tr>
+            <tr>
+                <td>难 度:</td>
+                <td><input type="text" id="difficulty" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="padding-left: 50px;">
+                        <input type="button" id="btnSb" value="提交"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="button" id="return" value="返回" onclick="location.href='/index'">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <div id="errmsg"></div>
+    </div>
+
+</body>
+
+</html>

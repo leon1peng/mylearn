@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root version="1.2" tag="test">
+  <head/>
+  <head id="head_id">
+    <title>test xml document</title>
+  </head>
+  <body>
+    <items id="3">
+      <target id="3t">CC<bpt id="3t1"/>cc</target>
+    </items>
+  </body>
+</root>

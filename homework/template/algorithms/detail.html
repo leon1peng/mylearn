@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/detail.css">
+    <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <script src="/static/js/detail.js"></script>
+</head>
+
+<body>
+    <div id="center">
+        <div id="title"> 编 辑 资 料 </div>
+        <table>
+            <tr>
+                <td>序 号 </td>
+                <td><label id="homeNum">{{ homework.homeworkId }}</label></td>
+            </tr>
+            <tr>
+                <td>昵 称 </td>
+                <td><label>{{ homework.username }}</label></td>
+            </tr>
+            <tr>
+                <td>题 号 </td>
+                <td><label>{{ homework.number }}</label></td>
+            </tr>
+            <tr>
+                <td>题 名 </td>
+                <td><label>{{ homework.topicName }}</label></td>
+            </tr>
+            <tr>
+                <td>难 度 </td>
+                <td><label>{{ homework.difficulty }}</label></td>
+            </tr>
+            <tr>
+                <td>五毒神掌 </td>
+                <td><input type="text" id="times" value="{{ homework.times }}" /></td>
+            </tr>
+            <tr>
+                <td>注 释 </td>
+                <td><input type="text" id="comment" value="{{ homework.comment }}" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="padding-left: 100px;">
+                        <input type="button" id="btnUp" value="提交">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

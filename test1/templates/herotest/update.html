@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+    <link rel="stylesheet" type="text/css" href="/static/CSS/updateCSS.css">
+</head>
+<body>
+<div id="center">
+    <div id="title">Update the Information of Hero</div>
+    <form method="post" action="/update_check/{{ hero.id }}">
+        <table>
+        <tr>
+            <td>Hero Name  : </td>
+            <td><input type="text" name="heroname" value="{{ hero.name }}" /></td>
+        </tr>
+        <tr>
+            <td>Hero gender:</td>
+            <td><input type="text" name="herogender" value="{{ hero.gender }}" /></td>
+        </tr>
+        <tr>
+            <td>Hero Skill :</td>
+            <td><input type="text" name="heroskill" value="{{hero.skill}}" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div style="padding-left: 100px;">
+                    <input type="submit" name="Submit">
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="/static/CSS/indexCSS.css">
+</head>
+<body>
+<div id="center">
+    <br/>
+    <p>Some heros in Honour Of Kings.</p>
+    <h1>Hero：</h1>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href="/add">Add New Hero</a></td>
+        </tr>
+        <tr id="tr_one">
+            <td>Hero Name</td>
+            <td>Hero Skill</td>
+            <td>DELETE</td>
+            <td>UPDATE</td>
+        </tr>
+        {% for hero in heros %}
+        <tr>
+            <td>{{ hero.name }}</td>
+            <td>{{ hero.skill }}</td>
+            <td><a href="/delete/{{ hero.id }}">Delete</a></td>
+            <td><a href="/update/{{ hero.id }}">Update</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</body>
+</html>

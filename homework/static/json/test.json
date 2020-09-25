@@ -1,0 +1,61 @@
+// demo
+
+
+// result: ( Training API result structure demo)
+{
+    "ProjectID": 100001,
+    "Result": {
+        "TrainingID": 1,
+        "Result": [{
+                "Segmenter": "Jieba",
+                "Word_Vectorizer": "Word2Vec_Vectorizer",
+                "Classification_Algo": "Logistic_Regression",
+                "performanceReport": {}
+            },
+            {},
+            {}
+        ]
+    }
+},
+//OR ( Other APIs result structure demo)
+{
+    "Result": [
+          {
+          "TrainingID": 1,
+          "Result": [{
+                  "Segmenter": "Jieba",
+                  "Word_Vectorizer": "Word2Vec_Vectorizer",
+                  "Classification_Algo": "Logistic_Regression",
+                  "performanceReport": {}
+              },
+              {},
+              {}
+          },
+          {},
+          {}
+        ]
+    }
+
+
+    // params: ( saving api demo )
+    {
+        "projectID": 100001,
+        "ModelResult": [
+                {
+                    "TrainingID": 1,
+                    "Result": [
+                        {
+                            "Segmenter": "Jieba",
+                            "Word_Vectorizer": "Word2Vec_Vectorizer",
+                            "Classification_Algo": "Logistic_Regression",
+                            "performanceReport": {}
+                        },
+                        {},
+                        {}
+                },
+                {},
+                {}
+            ],
+        "ModelName": "test_model"
+        }
+

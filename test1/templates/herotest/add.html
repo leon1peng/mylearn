@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add hero</title>
+    <link rel="stylesheet" type="text/css" href="/static/CSS/addCSS.css">
+        <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <!--<script src="/static/js/jquery.min.js"></script>-->
+    <script src="/static/js/addJS.js"></script>
+</head>
+<body style="background-color: #ccc;">
+<!--<form method="post" action="/add_check">-->
+<!--    Hero Name: <input type="text" name="heroname" /><br/>-->
+<!--    Hero gender: <input type="text" name="herogender"/><br/>-->
+<!--    Hero Skill: <input type="text" name="heroskill" /><br/>-->
+<!--    <input type="submit" name="Submit">-->
+<!--</form>-->
+<div id="center">
+    <div id="title">Add the Information of Hero</div>
+    <table>
+        <tr>
+            <td>Hero Name  : </td>
+            <td><input type="text" id="heroname"/></td>
+        </tr>
+        <tr>
+            <td>Hero gender:</td>
+            <td><input type="text" id="herogender"/></td>
+        </tr>
+        <tr>
+            <td>Hero Skill :</td>
+            <td><input type="text" id="heroskill"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div style="padding-left: 50px;">
+                    <input type="button" id="btnSb" value="Submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" id="return" value="Reset">
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <div id="errmsg"></div>
+</div>
+
+</body>
+</html>

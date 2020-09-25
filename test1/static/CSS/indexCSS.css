@@ -1,0 +1,23 @@
+body{
+    background-color: #ccc;
+}
+#center{
+    width:500px;
+    margin: 0 auto;
+}
+#lb{
+    dispaly: inline-block;
+    width: 50px;
+}
+        a{
+            text-decoration: none;
+        }
+        table{
+            margin:0 auto;
+        }
+        table tr td{
+            width: 100px;
+        }
+        #tr_one{
+            background-color: #666;
+        }

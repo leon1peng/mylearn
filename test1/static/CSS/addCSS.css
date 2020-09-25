@@ -1,0 +1,18 @@
+body{
+    background-color: #ccc;
+}
+#errmsg{
+            display: none;
+            color: red;
+        }
+        #center{
+            width:300px;
+            # border: 1px solid red;
+            margin: 0 auto;
+        }
+        #title{
+            margin-top: 100px;
+            text-align: center;
+            height: 50px;
+            font-size:36;
+        }
